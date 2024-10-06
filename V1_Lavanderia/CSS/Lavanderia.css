@@ -1,0 +1,201 @@
+
+.Marco{
+    position: absolute;
+    padding: 200Px;
+    background-color: rgb(211, 211, 211);
+    margin-left: 30%;
+    top: 18%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.Logo_Login {
+    object-fit: cover;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Usuario {
+    position: absolute;
+    top: 31%;
+    left: 45%;         
+}
+.Contraseña {
+    position: absolute;
+    top: 44%;
+    left: 42%;        
+}
+.BtnLogin {
+    position: absolute;
+    top: 65%;
+    left: 45%; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Sombra */
+    background-color: white;
+    padding:10px;
+}
+
+
+/* Pantalla 1 */
+
+.body2   {
+    margin: 0;
+}
+.Marco2 {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+}
+
+.Marco_TituloPg1 {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+}
+.TituloPg1{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.Img_Cuadrado {
+    position: relative;
+    margin-left: 85%;
+    margin-top: -5%;
+}
+.MenuLat{
+    border-radius: 15px;
+    position: absolute;
+    background-color: gray;
+    width: 250px;
+    height: 84vh; 
+    margin-left: 81%;
+}
+.MenuLatOp{
+    position: absolute;
+    top: 2%;
+}
+.Opcione1{
+    border-radius: 15px;
+    position: relative;
+    background-color:rgb(255, 254, 254) ;
+    width: 200%;
+    height: auto;
+    margin-top: 80%;
+    left: 20%;
+}
+.Opcione2{
+    border-radius: 15px;
+    position: relative;
+    background-color:rgb(255, 254, 254) ;
+    width: 200%;
+    height: auto;
+    margin-top: 5%;
+    left: 20%;
+}
+.Opcione3{
+    border-radius: 15px;
+    position: relative;
+    background-color:rgb(255, 254, 254) ;
+    width: 200%;
+    height: auto;
+    margin-top: 5%;
+    left: 20%;
+}
+.Opcione4{
+    border-radius: 15px;
+    position: relative;
+    background-color:rgb(255, 254, 254) ;
+    width: 200%;
+    height: auto;
+    margin-top: 5%;
+    left: 20%;
+}
+.MarcoCRUD {
+    position: absolute;
+    border-radius: 15px;
+    background-color: white;
+    width: 81%;
+    height: 550%;
+}
+.Buscador{
+    border-radius: 15px;
+    position: absolute;
+    background-color: gray;
+    width: 50%;
+    left: 25%;
+    top: 2%;
+}
+
+.CRUD{
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(211, 211, 211); 
+    top: 20%;
+    left: 5%;
+    width: 85%;
+    height: 75%;
+    
+}
+.RegistrarEmp{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 20%;
+}
+.CRUDDB{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    top: 45%;
+    left: 10%;
+    width: 75%;
+    height: 45%;
+}
+.NombreCRUD{
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 3%;
+    left: 5%;
+}
+
+h4{
+    word-spacing: 22px;
+}
+.Tb_Empleados{
+    position: relative;
+    left: 2%;
+}
+
+/* Pantalla Citas */
+.RegistrarCit{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 20%;
+}
+
+.Tb_Citas{
+    position: relative;
+    left: 2%;
+}
+/* Pantalla Entregas*/
+.RegistrarEnt{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 20%;
+}
+
+.Tb_Entregas{
+    position: relative;
+    left: 2%;
+}
