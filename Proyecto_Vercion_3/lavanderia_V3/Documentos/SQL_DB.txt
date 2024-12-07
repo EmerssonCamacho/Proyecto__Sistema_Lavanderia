@@ -1,0 +1,14 @@
+//Crear base de datos
+CREATE DATABASE UBI.SRL;
+//Crear la tabla correos 
+CREATE TABLE correos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(50) NOT NULL,
+    appaterno VARCHAR(50) NOT NULL,
+    apmaterno VARCHAR(50),
+    correo VARCHAR(100), 
+    Mensaje VARCHAR(1000)
+);
+//Insertar un dato para confirmar si esta todo correcto
+INSERT INTO correos (nombre, appaterno, apmaterno, correo, mensaje) 
+VALUES ('Emersson', 'Camacho', 'Cori', 'Emersson@gmail.com', 'Mensaje de prueba para verificar si todo esta bien');

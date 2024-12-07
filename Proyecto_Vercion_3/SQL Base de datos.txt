@@ -1,0 +1,39 @@
+-- Base de datos de prueba
+-- Crear base de datos
+CREATE DATABASE lavanderia;
+
+-- Ingresar a la base de datos
+USE lavanderia;
+
+-- Tabla empleados
+CREATE TABLE empleados (
+    id_emp INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    nombre_emp VARCHAR(50),
+    paterno_emp VARCHAR(50),
+    materno_emp VARCHAR(50),
+    correo_emp VARCHAR(80),
+    telefono_emp VARCHAR(12),
+    password VARCHAR(50)
+);
+
+-- Tabla órdenes
+CREATE TABLE ordenes (
+    id_ord INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    nombre_cli VARCHAR(50),
+    paterno_cli VARCHAR(50),
+    materno_cli VARCHAR(50),
+    fecha_ord DATE NOT NULL,
+    cantidad_ord INT NOT NULL,
+    estado ENUM('Pendiente', 'Procesada', 'Completada', 'Cancelada') NOT NULL,
+    descripcion TEXT,
+    servicio ENUM('Lavado Simple', 'Trajes', 'Frasadas') DEFAULT 'Lavado Simple' NOT NULL,
+    costo_total DECIMAL(10, 2) NOT NULL
+);
+
+-- Tabla servicios
+CREATE TABLE servicios (
+    id_serv INT AUTO_INCREMENT PRIMARY KEY NOT NULL,
+    nombre_serv VARCHAR(50) NOT NULL,
+    descrip_serv TEXT NOT NULL,
+    costo_serv DECIMAL(5, 2)
+);

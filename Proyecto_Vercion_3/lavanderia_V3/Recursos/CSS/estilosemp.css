@@ -1,0 +1,138 @@
+
+.body   {
+    margin: 0;
+}
+
+
+.Marco {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.Marco_TituloPg1 {
+    position: absolute;
+    border-radius: 10px;
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+}
+
+
+.TituloPg1{
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.Img_Cuadrado {
+    position: absolute;
+    margin-left: 85%;
+    margin-top: -5%;
+}
+.MenuLat{
+    border-radius: 15px;
+    position: absolute;
+    background-color: gray;
+    width: 250px;
+    height: 84vh; 
+    margin-left: 81%;
+}
+.MenuLatOp{
+    position: absolute;
+    top: 2%;
+}
+.Opcione1{
+    border-radius: 15px;                 
+    background-color: rgb(255, 254, 254); 
+    width: 100%;                        
+    padding: 10px 20px;                 
+    margin: 20px auto;                   
+    text-align: center;                  
+    box-sizing: border-box; 
+}
+.Opcione2{
+    border-radius: 15px;                 
+    background-color: rgb(255, 254, 254); 
+    width: 100%;                        
+    padding: 10px 20px;                 
+    margin: 20px auto;                   
+    text-align: center;                  
+    box-sizing: border-box; 
+}
+.Opcione3{
+    border-radius: 15px;                 
+    background-color: rgb(255, 254, 254); 
+    width: 100%;                        
+    padding: 10px 20px;                 
+    margin: 20px auto;                   
+    text-align: center;                  
+    box-sizing: border-box; 
+}
+.Opcione4{
+    border-radius: 15px;                 
+    background-color: rgb(255, 254, 254); 
+    width: 100%;                        
+    padding: 10px 20px;                 
+    margin: 20px auto;                   
+    text-align: center;                  
+    box-sizing: border-box;              
+}
+.MarcoCRUD {
+    position: absolute;
+    border-radius: 15px;
+    background-color: white;
+    width: 81%;
+    height: 550%;
+}
+.Buscador{
+    border-radius: 15px;
+    position: absolute;
+    background-color: gray;
+    width: 50%;
+    left: 25%;
+    top: 2%;
+}
+
+.CRUD{
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(211, 211, 211); 
+    top: 20%;
+    left: 5%;
+    width: 85%;
+    height: 75%;
+    
+}
+.RegistrarEmp{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50%;
+    top: 20%;
+}
+.CRUDDB{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    top: 45%;
+    left: 10%;
+    width: 75%;
+    height: 45%;
+}
+.NombreCRUD{
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 3%;
+    left: 5%;
+}
+
+h4{
+    word-spacing: 22px;
+}
+.EmpleadoTabla{
+    position: absolute;
+    top: 50%;
+    left: 100%;
+}
